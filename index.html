@@ -67,6 +67,122 @@
           <div class="content-box">
             <button class="all">See All</button>
         <br>
+        <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Details</th>
+        <th>Price</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>ORD-#0012</td>
+        <td>Jane Kamau</td>
+        <td>Ksh 250</td>
+        <td>
+          <select>
+            <option value="delivered" selected>Delivered</option>
+            <option value="processing">Processing</option>
+            <option value="new">New Order</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>ORD-#0023</td>
+        <td>Ian Mwangi</td>
+        <td>Ksh 100</td>
+        <td>
+          <select>
+            <option value="delivered">Delivered</option>
+            <option value="processing" selected>Processing</option>
+            <option value="new">New Order</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>ORD-#0034</td>
+        <td>Esther Njoki</td>
+        <td>Ksh 350</td>
+        <td>
+          <select>
+            <option value="delivered">Delivered</option>
+            <option value="processing">Processing</option>
+            <option value="new" selected>New Order</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>ORD-#0045</td>
+        <td>Mary Anne</td>
+        <td>Ksh 200</td>
+        <td>
+          <select>
+            <option value="delivered" selected>Delivered</option>
+            <option value="processing">Processing</option>
+            <option value="new">New Order</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+
+    
+   
+    </tbody>
+  </table>
+
+	<div class="col-div-4">
+		<div class="box-4">
+		<div class="content-box">
+			<p>Total Sale</p>
+
+			<div class="circle-wrap">
+    <div class="circle">
+      <div class="mask full">
+        <div class="fill"></div>
+      </div>
+      <div class="mask half">
+        <div class="fill"></div>
+      </div>
+      <div class="inside-circle"> 70% </div>
+    </div>
+  </div>
+		</div>
+	</div>
+	</div>
+		
+	<div class="clearfix"></div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+
+  $(".nav").click(function(){
+    $("#mySidenav").css('width','70px');
+    $("#main").css('margin-left','70px');
+    $(".logo").css('visibility', 'hidden');
+    $(".logo span").css('visibility', 'visible');
+     $(".logo span").css('margin-left', '-10px');
+     $(".icon-a").css('visibility', 'hidden');
+     $(".icons").css('visibility', 'visible');
+     $(".icons").css('margin-left', '-8px');
+      $(".nav").css('display','none');
+      $(".nav2").css('display','block');
+  });
+
+$(".nav2").click(function(){
+    $("#mySidenav").css('width','300px');
+    $("#main").css('margin-left','300px');
+    $(".logo").css('visibility', 'visible');
+     $(".icon-a").css('visibility', 'visible');
+     $(".icons").css('visibility', 'visible');
+     $(".nav").css('display','block');
+      $(".nav2").css('display','none');
+ });
+
+</script>
       
       
       
